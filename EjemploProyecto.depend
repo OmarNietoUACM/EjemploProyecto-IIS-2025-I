@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1746660339 source:c:\users\omar\documents\codeblock_ws\ejemploproyecto\main.c
+1746744005 source:c:\users\omar\documents\codeblock_ws\ejemploproyecto\main.c
 	<stdio.h>
 	<stdlib.h>
 	"MisFunciones.h"
 
-1746659774 c:\users\omar\documents\codeblock_ws\ejemploproyecto\misfunciones.h
+1746744882 c:\users\omar\documents\codeblock_ws\ejemploproyecto\misfunciones.h
+	<stdbool.h>
 
-1746662944 source:c:\users\omar\documents\codeblock_ws\ejemploproyecto\misfunciones.c
+1746744338 source:c:\users\omar\documents\codeblock_ws\ejemploproyecto\misfunciones.c
 	<stdio.h>
+	<stdlib.h>
 

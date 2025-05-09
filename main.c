@@ -12,13 +12,14 @@ int main()
         opcion = ImpMenu();
         switch(opcion)
         {
-        case 1: printf("Opcion 1\n");
+        case 1: printf("1. Ventas\n");
             break;
-        case 2: printf("Opcion 2\n");
+        case 2: //printf("2. Admin de Inventario 2\n");
+                AdmonInventario();
             break;
-        case 3: printf("Opcion 3\n");
+        case 3: printf("3. Imprimir lista de bajo stock\n");
             break;
-        case 4: printf("Opcion 4\n");
+        case 4: printf("4. Exportar inventario a CSV\n");
             break;
         case 5: printf("Saliendo...\n");
             break;
