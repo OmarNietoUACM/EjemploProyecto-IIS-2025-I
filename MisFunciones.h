@@ -3,6 +3,9 @@
 #ifndef MISFUNCIONES_H_INCLUDED
 #define MISFUNCIONES_H_INCLUDED
 
+
+#define INC_LISTA 10
+
 //enum Eliminado{ SI, NO};
 
 typedef struct PRODUCTO_STR
@@ -17,6 +20,15 @@ typedef struct PRODUCTO_STR
 } Producto;
 
 
+typedef struct LISTA_PROD_STR
+{
+    Producto *pLista;
+    int numProd;
+    int maxProd;
+
+} ListaProd;
+
+
 typedef struct VENTA_STR
 {
     int idventa;
@@ -29,14 +41,12 @@ typedef struct VENTA_STR
 } Venta;
 
 
-char ARCHIVO_PRODUCTOS[] = "Productos.dat";
-char ARCHIVO_VENTAS[] = "Ventas.dat";
-
-
-
 int ImpMenu();
 void AdmonInventario();
 int ImpSubMenuInventario();
-int ObtenerNumProductos();
+void AgregarProducto(ListaProd *plistaProd);
+void ListarProducto(ListaProd listaProd);
+ListaProd LeerArchivoProductos();
+
 
 #endif // MISFUNCIONES_H_INCLUDED

@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include "MisFunciones.h"
 
+
+char ARCHIVO_PRODUCTOS[] = "Productos.dat";
+char ARCHIVO_VENTAS[] = "Ventas.dat";
+
+
 int main()
 {
     int opcion;
